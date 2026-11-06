@@ -1,6 +1,6 @@
 
 import { NavLink } from "react-router-dom";
-import { Globe, Flag, CloudSun, Wallet, Layers } from "lucide-react";
+import { Flag, Layers } from "lucide-react";
 
 const modules = [
     {
