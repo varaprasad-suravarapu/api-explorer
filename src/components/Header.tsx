@@ -8,16 +8,16 @@ const modules = [
         path: "/countries",
         icon: Flag,
     },
-    {
-        name: "Weather",
-        path: "/weather",
-        icon: CloudSun,
-    },
-    {
-        name: "Currency",
-        path: "/currency",
-        icon: Wallet,
-    },
+    // {
+    //     name: "Weather",
+    //     path: "/weather",
+    //     icon: CloudSun,
+    // },
+    // {
+    //     name: "Currency",
+    //     path: "/currency",
+    //     icon: Wallet,
+    // },
 ];
 
 const Header = () => {
