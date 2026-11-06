@@ -33,7 +33,7 @@ const CountryDetails = ({selectedCountry, handleClose}:CountryDetailViewProps) =
             <div className="mb-6 flex flex-col items-center gap-4 text-center">
               <img
                 src={
-                  selectedCountry.flag.url_png || selectedCountry.flag.url_svg || "/images/flag-placeholder.png"
+                  selectedCountry.flag.url_png || selectedCountry.flag.url_svg || "images/flag-placeholder.png"
                 }
                 alt={`${selectedCountry.names.common} flag`}
                 className="h-28 w-44 object-contain"

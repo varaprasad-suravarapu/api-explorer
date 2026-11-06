@@ -16,7 +16,7 @@ const CountryList = ({ country, handleViewDetails }: CountryListProps) => {
                     src={
                         country.flag.url_png ||
                         country.flag.url_svg ||
-                        "/images/flag-placeholder.png"
+                        "images/flag-placeholder.png"
                     }
                     alt={`${country.names.common} flag`}
                     className="h-full w-full object-contain"

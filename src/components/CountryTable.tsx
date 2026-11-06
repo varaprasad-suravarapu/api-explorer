@@ -37,7 +37,7 @@ const CountryTable = ({ countries, handleViewDetails }: CountryTableProps) => {
                                     src={
                                         country.flag.url_png ||
                                         country.flag.url_svg ||
-                                        "/images/flag-placeholder.png"
+                                        "images/flag-placeholder.png"
                                     }
                                     alt={`${country.names.common} flag`}
                                     className="h-8 w-12 rounded object-contain"

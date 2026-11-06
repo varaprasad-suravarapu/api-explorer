@@ -7,3 +7,15 @@ GET /v3.1/name/india
 GET /v3.1/region/asia
 
 GET /v3.1/alpha/ind
+
+
+Account created with
+prasadnti@gmail.com
+Adhivenkat#3
+
+
+Keys
+rc_live_ad7331a2410447afbb4830e2c07ae62b
+
+to work in local and host, keep CORS ALLOWED ORGINS
+localhost,varadesigns.com
