@@ -1,5 +1,5 @@
 import { X } from "lucide-react";
-import type { Country } from "../types/country"
+import type { Country } from "../../types/country/country"
 
 interface CountryDetailViewProps {
     selectedCountry: Country;

@@ -1,8 +1,8 @@
 
 import { createContext, useState, useEffect } from "react";
 import type { PropsWithChildren } from "react";
-import type { Country } from "../types/country";
-import { getCountries } from "../services/countryServices.ts";
+import type { Country } from "../../types/country/country.ts";
+import { getCountries } from "../../services/country/countryServices.ts";
 
 interface CountryContextType {
     countryData: Country[];

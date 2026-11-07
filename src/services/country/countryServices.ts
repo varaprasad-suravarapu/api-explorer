@@ -1,6 +1,8 @@
 import axios from "axios"
-import type {CountriesApiResponse} from "../types/country"
-import type {Country} from "../types/country"
+import type {CountriesApiResponse} from "../../types/country/country"
+import type {Country} from "../../types/country/country"
+
+
 
 const BASE_URL = "https://api.restcountries.com/countries/v5"
 

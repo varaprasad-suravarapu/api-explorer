@@ -1,5 +1,5 @@
 
-import type { Country } from "../types/country";
+import type { Country } from "../../types/country/country";
 
 interface CountryTableProps {
     countries: Country[];
