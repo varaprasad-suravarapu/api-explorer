@@ -32,14 +32,14 @@ const ResumeEditor = () => {
       <div className="fixed left-20 md:left-68 top-2 md:top-4 z-50 ">
         <Button
           handler={() => navigate("/resume-generator")}
-          title="Templates"
-          cssStyles="left-4 top-4 p-1 px-2 rounded-full  bg-white border border-dashed text-sm font-semibold text-slate-400 hover:text-slate-700  transition hover:bg-green-50 shadow-lg"
+          title="Switch Template"
+          cssStyles="left-4 top-4 p-1 px-2 rounded-full text-sm font-semibold text-white transition bg-indigo-600 hover:bg-slate-500 shadow-lg"
           Icon={ArrowLeftCircle}
           iconSize={20}
         />
       </div>
 
-      <div className="flex flex-col gap-6 p-4 md:flex-row md:p-6 lg:p-8">
+      <div className="flex flex-col gap-6 p-1 md:flex-row md:p-6 lg:p-8">
         {/* <TemplateLeftSection /> */}
 
         <div className="flex w-full flex-col">

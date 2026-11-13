@@ -17,7 +17,7 @@ function App() {
 
   console.log("React Router Path:", location.pathname)
 
-
+  
   console.log("BASE URL:", import.meta.env.BASE_URL)
 console.log("CURRENT PATH:", window.location.pathname)
 
@@ -26,10 +26,6 @@ console.log("CURRENT PATH:", window.location.pathname)
     <Route element={<AppLayout />}>
       <Route path='/' element={<Dashboard />} />
       <Route path='/resume-generator' element={ <TemplateSelection /> } />
-      <Route
-  path="/resume-generator"
-  element={<div className="p-10 text-2xl">Resume Generator Route Working</div>}
-/>
       <Route path="/resume-editor" element={ <ResumeEditor />} />
       <Route path='/country-flags' element={ <CountryProvider> <Home /> </CountryProvider>} />
       <Route path="*" element={<NotFound />} />

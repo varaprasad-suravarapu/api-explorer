@@ -187,7 +187,7 @@ const PersonalDetailsForm = ({onClose}: PersonalDetailsFormProps) => {
       {/* Form Actions */}
       <div className="sticky bottom-0 flex justify-end gap-3 border-t border-slate-200 bg-white pt-4">
         <Button
-          title="Cancel"
+          title="Close"
           type="button"
           cssStyles="cursor-pointer rounded-lg border border-slate-300 bg-white px-5 py-2.5 text-sm font-medium text-slate-600 transition hover:bg-slate-100"
           handler={onClose}

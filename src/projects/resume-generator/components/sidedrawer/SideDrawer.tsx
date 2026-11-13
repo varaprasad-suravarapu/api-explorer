@@ -49,7 +49,7 @@ const SideDrawer = ({isOpen, onClose, activeSection}: SideDrawerProps) => {
               {sectionTitles[activeSection] || "Edit Resume"}
             </h2>
             <p className="mt-1 text-xs text-slate-500">
-              Update your profile photo
+              Update your {sectionTitles[activeSection]}
             </p>
           </div>
 

@@ -14,7 +14,7 @@ const ProfessionalTemplate = ({handleEdit}: TemplateProps) => {
   return (
     <section>
       {/* Template */}
-      <div className="min-w-0 w-full flex-1 rounded-lg border border-dashed border-slate-400/70 bg-slate-50/30 p-3 sm:p-4 md:p-6 lg:p-8">
+      <div className="min-w-0 w-full flex-1 rounded-lg border border-dashed border-slate-400/70 bg-slate-50/30 p-0 sm:p-4 md:p-6 lg:p-8">
         <div className="mx-auto w-full max-w-5xl overflow-hidden rounded-xl bg-white shadow-lg sm:rounded-2xl">
           {/* Header Section */}
           <div
@@ -36,7 +36,7 @@ const ProfessionalTemplate = ({handleEdit}: TemplateProps) => {
             />
           </div>
 
-          <section className="px-8">
+          <section className="px-4 md:px-8">
             {/* Summary */}
             <Summary
               componentType="summary"
