@@ -7,7 +7,7 @@ import {ResumeProvider} from "./projects/resume-generator/context/ResumeContext.
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <ResumeProvider>
         <App />
       </ResumeProvider>
