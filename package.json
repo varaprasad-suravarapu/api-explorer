@@ -10,7 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-pdf/renderer": "^4.9.0",
     "@tailwindcss/vite": "^4.3.4",
+    "@tiptap/extension-underline": "^3.33.1",
+    "@tiptap/pm": "^3.33.1",
+    "@tiptap/react": "^3.33.1",
+    "@tiptap/starter-kit": "^3.33.1",
     "axios": "^1.21.0",
     "lucide-react": "^1.68.0",
     "react": "^19.3.1",

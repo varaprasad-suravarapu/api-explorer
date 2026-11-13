@@ -1,16 +1,16 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
-import { CountryProvider } from './context/country/CountryContext.tsx'
-import { BrowserRouter } from 'react-router-dom'
+import {StrictMode} from "react"
+import {createRoot} from "react-dom/client"
+import "./index.css"
+import App from "./App.tsx"
+import {BrowserRouter} from "react-router-dom"
+import {ResumeProvider} from "./projects/resume-generator/context/ResumeContext.tsx"
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <CountryProvider>
-      <BrowserRouter>
+    <BrowserRouter>
+      <ResumeProvider>
         <App />
-      </BrowserRouter>
-    </CountryProvider>
+      </ResumeProvider>
+    </BrowserRouter>
   </StrictMode>,
 )
