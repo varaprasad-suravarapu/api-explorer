@@ -37,5 +37,5 @@ jobs:
           protocol: ftps
           port: 21
           local-dir: dist/
-          server-dir: /api-explorer/
+          server-dir: /
           dangerous-clean-slate: false
